@@ -1,0 +1,135 @@
+body{
+    overflow-x: hidden;
+    background-color: #eeeeee;
+  }
+
+.text-white{
+    color: white;
+}
+
+.login{
+    margin: 20% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    width: 65%;
+    height: 60%;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.24);
+} 
+
+.form{
+    width: 45%;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.btn-post {
+    background: linear-gradient(45deg, #1d7ab8, #1a5885);
+    width: 200px;
+    font-size: 16px;
+    border-radius: 20px;
+    color: white;
+}
+
+.color-white{
+    color: white;
+    font-size: 16px;
+}
+
+.color-white:hover{
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0 2px 5px #7c7c7a;
+}
+
+.margin{
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+.card{
+    width: 99%;
+    margin-left: 8px;
+}
+/* SLIDE BAR */
+
+.bg-blue{
+    background-color: rgb(27, 97, 172);
+}
+
+.bg-hover{
+    padding-bottom: 10px;
+}
+
+.bg-hover:hover{
+    background-color: rgb(38, 123, 211);
+}
+
+.bg-blue2{
+    background-color: rgb(37, 120, 207);
+}
+
+.bg-white{
+    background-color: white;
+}
+  
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
+
+.float{
+    float: left;
+    margin-right: 5px;
+}
